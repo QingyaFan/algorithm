@@ -4,13 +4,9 @@ import (
 	"fmt"
 )
 
-func main() {
-	const wordStr = "golang nodejs nodejs docker docker kubernetes linux linux linux"
-	res := WordCount(wordStr)
-	fmt.Println(res)
+var arr = []int{1, 2, 30, 4, 5, 6, 7, 8, 9}
 
-	f := Fibonacci()
-	for i := 0; i < 10; i++ {
-		fmt.Println(f())
-	}
+func main() {
+	test := FindMax(arr)
+	fmt.Println(test)
 }
