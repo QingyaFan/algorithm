@@ -2,11 +2,14 @@ package main
 
 import (
 	"fmt"
+
+	"./sort"
 )
 
-var arr = []int{1, 2, 30, 4, 5, 6, 7, 8, 9}
+var arr = []int{1, 23, 2, 30, 4, 5, 66, 7, 8, 9}
 
 func main() {
-	test := FindMax(arr)
-	fmt.Println(test)
+	fmt.Println(sort.QuickSort(arr))
+	// test := FindMax(arr)
+	// fmt.Println(test)
 }
